@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: rgb(167, 166, 166);
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #ff0000;
+}
+
+.navbar{
+    position: absolute;
+    padding: 0.938rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+}
+
+.navbar .logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Script MT Bold";
+}
+
+.navbar .nav-links{
+    display: flex;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links #lists-ul{
+    margin: 0 3.125rem;
+}
+
+.navbar .nav-links #lists-ul li{
+    margin: 0.625rem;
+}
+
+@media screen and (width:425px) {
+    .navbar .nav-links #lists-ul{
+        margin: 0 3.125rem;
+    }
+
+    .navbar .nav-links #lists-ul li{
+        margin: 0.625rem;
+    }
+}
+
+@media screen and (width:375px) {
+    .navbar .nav-links #lists-ul{
+        margin: 0 3.125rem;
+    }
+
+    .navbar .nav-links #lists-ul li{
+        margin: 0.625rem;
+    }
+}
+
+/* .navbar .nav-links #lists-uls li{
+    margin: 0.625rem;
+} */
+
+.navbar .nav-links ul li.active a{
+    font-weight: bold;
+}
+
+.navbar .menu-query{
+    display: none;
+}
+
+
+@media screen and (max-width:50.813rem) {
+    .navbar{
+        margin: 10px 10px -15px 0px;
+    }
+    
+}
+
+
+
+
