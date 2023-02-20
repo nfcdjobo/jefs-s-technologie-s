@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-    
 }
 .aboressance{
     padding:0.125rem;
@@ -50,158 +49,14 @@ body{
     left: 0;
 }
 
-
-
-
-
-@media screen and (width:768px) {
-    .navbar{
-        padding: 0px;
-    }
-    .navbar .menu-query{
-        display: block;
-    }
-    .navbar .nav-links ul{
-        background-color: rgb(9, 13, 255);
-        top: 5.6rem;
-        left: 72%;
-        height: auto;
-        position: absolute;
-        flex-direction: column;
-        font-size: 1.6rem;
-        float: left;
-        z-index: 1;
-    }
-    .nav-links ul li{
-        margin: 30px 0;
-        text-align:start;
-    }
-    .flay{
-        height: 50px;
-    }
-    .content-produit{
-        margin-top: -64rem;
-    }
-}
-
-@media screen and (width:425px) {
-    .navbar{
-        padding: 0px;
-    }
-    .navbar .menu-query{
-        display: block;
-    }
-    .navbar .nav-links ul{
-        background-color: rgb(43, 44, 109);
-        top: 6.8rem;
-        left: 62.5%;
-        height: auto;
-        position: absolute;
-        flex-direction: column;
-        font-size: 1rem;
-        float: left;
-        z-index: 1;
-    }
-    .nav-links ul li{
-        /* margin: 20px 0; */
-        text-align:start;
-    }
-    /* .flay{
-        height: 50px;
-    }
-    .content-produit{
-        margin-top: -64rem;
-    } */
-}
-
-
-
-@media screen and (width:375px) {
-    .navbar{
-        padding: 0px;
-    }
-    .navbar .menu-query{
-        display: block;
-    }
-    .navbar .nav-links ul{
-        background-color: rgb(114, 115, 141);
-        top: 6.8rem;
-        left: 57.5%;
-        height: auto;
-        position: absolute;
-        flex-direction: column;
-        font-size: 1rem;
-        float: left;
-        z-index: 1;
-    }
-    .nav-links ul li{
-        /* margin: 20px 0; */
-        text-align:start;
-    }
-    /* .flay{
-        height: 50px;
-    }
-    .content-produit{
-        margin-top: -64rem;
-    } */
-}
-
-
-@media screen and (width:320px) {
-    .navbar{
-        padding: 0px;
-    }
-    .navbar .menu-query{
-        display: block;
-    }
-    .navbar .nav-links ul{
-        background-color: rgb(9, 255, 62);
-        top: 7.9rem;
-        left: 58.5%;
-        height: auto;
-        position: absolute;
-        flex-direction: column;
-        font-size: 0.7rem;
-        float: left;
-        z-index: 1;
-    }
-    .nav-links ul li{
-        /* margin: 20px 0; */
-        text-align:start;
-    }
-    .flay{
-        height: 50px;
-    }
-    .content-produit{
-        margin-top: -64rem;
-    }
-}
-
-/* @media screen and (max-width:70.625rem) {
-    .content .aboressance{
-        display: none;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-/* .modal{
+.modal{
     margin-left: auto;
     margin-right: auto;
     width:31.25rem;
     top:3.125rem;
     left:3.125rem;
     justify-content: space-between
-} */
+}
 .modal{
     margin-left: auto;
     margin-right: auto;
@@ -211,54 +66,27 @@ body{
     justify-content: space-between
 }
 
-.modal-login, 
-.modal-register, 
-.modal-reinitialiser, 
-.modal-validetion{
+#active-login,
+#active-register,
+#active-reinitialiser,
+#active-valider{
     position: absolute;
     border-radius:1.563rem 0rem 1.563rem 1.563rem;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-    opacity: 1;
+    opacity: 0;
     transform: top 0ms ease-in-out 200ms,
                 opacity 200ms ease-in-out 0ms,
                 transform 20ms ease-in-out 0ms;
-                transform: translateY(-4000rem);
+                transform: translateY(-2000rem);
 
 }
-/* .modal-login, 
-.modal-register, 
-.modal-reinitialiser, 
-.modal-validetion{
-    position: absolute;
-    border-radius:2% 0% 1% 1%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    opacity: 1;
-    transform: top 0ms ease-in-out 200ms,
-                opacity 200ms ease-in-out 0ms,
-                transform 20ms ease-in-out 0ms;
-                transform: translateY(-200%);
 
-} */
-
-/* #message{
-    text-align: center;
-    margin: 1.563rem 0;
-} */
-#message{
-    text-align: center;
-    margin: 1% 0;
-}
-
-
-
-.modal-login.active,
-.modal-register.active,
-.modal-reinitialiser.active,
-.modal-validetion.active{
+#active-login.active,
+#active-register.active,
+#active-reinitialiser.active,
+#active-valider.active{
     top:3.125rem;
     opacity: 1;
     transform: translate(40%, 0%) scale(1);
@@ -266,15 +94,17 @@ body{
                 opacity 200ms ease-in-out 0ms,
                 transform 20ms ease-in-out 0ms;
                 transform: translateY(0);
-    /* z-index: 1; */
+    z-index: 1;
 }
 
+#message{
+    text-align: center;
+    margin: 1% 0;
+}
 
-
- .logos{
+.logos{
     background-color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-weight: bold; */
     border:0.313rem solid rgb(255, 0, 0);
     border-radius:1.563rem 0rem ;
     color: rgb(0, 0, 0);
@@ -300,7 +130,6 @@ body{
     margin-right: auto;
     width:  100%;
     background-color: rgb(95, 93, 93);
-    /* padding:0.313rem 0.938rem; */
     border-radius:1.563rem 0rem ;
     border: 0.125rem solid rgb(255, 255, 255);
     border-radius:1.563rem;
@@ -326,9 +155,7 @@ body{
 
  .form-login button, .form-login button:hover{
     background-color: rgb(255, 255, 255);
-    /* margin: 0.938rem; */
-    margin-left: auto;
-    margin-right: auto;
+    margin:15px auto;
     width: 75%;
     padding:0.313rem 0.938rem;
     justify-content: center;
@@ -373,21 +200,6 @@ body{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .content .flay .logo-slogan h3{
     font-size: 100%;;
 }
@@ -398,7 +210,6 @@ body{
 
 .logo-slogan .slogan{
     font: size 0.7rem;
-    /* font-weight: bold; */
 }
 
 .logo-slogan .action{
@@ -413,10 +224,9 @@ body{
     width: auto;
     margin: 0.938rem auto;
     display: grid;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     grid-gap:1.875rem;
-    
 }
 
 .content-produit .some-categorie{
@@ -426,7 +236,6 @@ body{
 
 .content-produit .some-categorie .categorie-title{
     display: flex; 
-    /* float: right; */
     background-color: rgb(255, 255, 255);
     padding:0.313rem;
     border-radius:1.563rem1.563rem 0rem 0rem;
@@ -578,7 +387,6 @@ body{
 
 .content .classers{
     width: 100%;
-    /* margin:0.625rem auto; */
     display: grid;
     grid-template-columns: repeat(auto-fill, 24%);
     justify-content: center;
@@ -588,26 +396,12 @@ body{
 .content .classers .class-element{
     background-color: rgb(68, 0, 255);
     padding: 5%;
-
-    /* width: 24%; */
-    /* height: auto; */
-    /* margin: 0.538rem; */
 }
-
-
-
-
 
 .element-info{
     color: rgb(255, 0, 0);
     font-weight: bold;
 }
-
-/* .element-text{
-    color: white;
-    font-weight: bold;
-    margin:0.313rem;
-} */
 
 .newsletter{
     display: flex;
@@ -638,4 +432,422 @@ body{
     height:5%;
     font-weight: bold;
     border: 0.031rem solid white;
+}
+
+
+@media screen and (max-width:768px) {   
+    .modal{
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+        top: 5px;;
+        left:5%;
+        justify-content: space-between;
+    }
+
+    .logos{
+        background-color: rgb(255, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border:0.313rem solid rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        color: rgb(0, 0, 0);
+        padding:0.188rem;
+        width: 470px;
+    }
+
+    .logos u{
+        top: 0px;;
+        color: rgb(255, 0, 0);
+    }
+
+
+    .form-login{
+        background-color: rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        border:0.313rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin:0.313rem;
+        padding:0.625rem;
+        width: 450px;
+    }
+
+    .form-login h4{
+        margin-left: auto;
+        margin-right: auto;
+        width:  50%;
+        background-color: rgb(95, 93, 93);
+        border-radius:1.563rem 0rem ;
+        border: 0.125rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin-top:0.188rem;
+        padding: 3px;
+    }
+
+    .form-login .form-element{
+        margin-top: 0.938rem;
+        margin-left: 0.938rem;
+        margin-right: 0.938rem;
+        text-align: start;
+        color: white;
+        display: flex;
+        font-weight: bold;
+    }
+
+    .form-login .form-checkbox{
+        margin: 0.2rem 2rem;
+        justify-content: center;
+        text-align:end;
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login button, .form-login button:hover{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        padding:0.213rem 0.238rem;
+        justify-content: center;
+        text-align:center;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        border-radius:0.7rem;
+        cursor: pointer;
+    }
+
+    .form-login .form-element .control-label{
+        outline: none;
+        width:35%;
+        height:0.938rem;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .form-login .form-element .control-form, .control-form:focus{
+        outline: none;
+        width:60%;
+        height:0.938rem;
+        padding-left:0.313rem;
+        padding-right:0.313rem;
+        margin: 0px 15px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .form-login .form-links{
+        margin: 0.38rem 1rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    .form-connexion{
+        margin-top:50px;
+        left: 0;
+    }
+    #show-reinitialisation{
+        margin-left: -250px;
+        margin-top: -10px;
+    } 
+    #show-register{
+        margin-right: -250px;
+        margin-top: -20px;
+    }
+
+    .form-login .form-links a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login .fermer{
+        background: rgba(0, 0, 0, 0.52);
+        border-radius: 0.938rem;
+        margin-left: auto;
+        margin-right: auto;
+        width:6.25rem;
+        padding:0.313rem 0.625rem;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width:375px) {   
+    .modal{
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+        top: 5px;;
+        left:5%;
+        justify-content: space-between;
+    }
+
+    .logos{
+        background-color: rgb(255, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border:0.313rem solid rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        color: rgb(0, 0, 0);
+        margin-top: -45px;
+        margin-left: -15px;
+        padding:0.188rem;
+        width: 400px;
+    }
+
+    .logos u{
+        top: 0px;;
+        color: rgb(255, 0, 0);
+    }
+
+
+    .form-login{
+        background-color: rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        border:0.313rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin-top: 5px;
+        margin-left: -15px;
+        padding:0.625rem;
+        width: 380px;
+    }
+
+    .form-login h4{
+        margin-left: auto;
+        margin-right: auto;
+        width:  50%;
+        background-color: rgb(95, 93, 93);
+        border-radius:1.563rem 0rem ;
+        border: 0.125rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin-top:0.188rem;
+        padding: 3px;
+    }
+
+    .form-login .form-element{
+        margin-top: 0.938rem;
+        margin-left: 0.938rem;
+        margin-right: 0.938rem;
+        text-align: start;
+        color: white;
+        display: flex;
+        font-weight: bold;
+    }
+
+    .form-login .form-checkbox{
+        margin: 0.2rem 2rem;
+        justify-content: center;
+        text-align:end;
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login button, .form-login button:hover{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        padding:0.213rem 0.238rem;
+        justify-content: center;
+        text-align:center;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        border-radius:0.7rem;
+        cursor: pointer;
+    }
+
+    .form-login .form-element .control-label{
+        outline: none;
+        width:35%;
+        height:0.938rem;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .form-login .form-element .control-form, .control-form:focus{
+        outline: none;
+        width:60%;
+        height:0.938rem;
+        padding-left:0.313rem;
+        padding-right:0.313rem;
+        margin: 0px 15px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .form-login .form-links{
+        margin: 0.38rem 1rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    .form-connexion{
+        margin-top:50px;
+        left: 0;
+    }
+    #show-reinitialisation{
+        margin-left: -250px;
+        margin-top: -10px;
+    } 
+    #show-register{
+        margin-right: -250px;
+        margin-top: -20px;
+    }
+
+    .form-login .form-links a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login .fermer{
+        background: rgba(0, 0, 0, 0.52);
+        border-radius: 0.938rem;
+        margin-left: auto;
+        margin-right: auto;
+        width:6.25rem;
+        padding:0.313rem 0.625rem;
+        cursor: pointer;
+    }
+
+    .aboressance{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width:425px) {   
+    .modal{
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+        top: 5px;;
+        left:5%;
+        justify-content: space-between;
+    }
+
+    .logos{
+        background-color: rgb(255, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border:0.313rem solid rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        color: rgb(0, 0, 0);
+        margin-top: -45px;
+        margin-left: -15px;
+        padding:0.188rem;
+        width: 400px;
+    }
+
+    .logos u{
+        top: 0px;;
+        color: rgb(255, 0, 0);
+    }
+
+
+    .form-login{
+        background-color: rgb(255, 0, 0);
+        border-radius:1.563rem 0rem ;
+        border:0.313rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin-top: 5px;
+        margin-left: -15px;
+        padding:0.625rem;
+        width: 380px;
+    }
+
+    .form-login h4{
+        margin-left: auto;
+        margin-right: auto;
+        width:  50%;
+        background-color: rgb(95, 93, 93);
+        border-radius:1.563rem 0rem ;
+        border: 0.125rem solid rgb(255, 255, 255);
+        border-radius:1.563rem;
+        margin-top:0.188rem;
+        padding: 3px;
+    }
+
+    .form-login .form-element{
+        margin-top: 0.938rem;
+        margin-left: 0.938rem;
+        margin-right: 0.938rem;
+        text-align: start;
+        color: white;
+        display: flex;
+        font-weight: bold;
+    }
+
+    .form-login .form-checkbox{
+        margin: 0.2rem 2rem;
+        justify-content: center;
+        text-align:end;
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login button, .form-login button:hover{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        padding:0.213rem 0.238rem;
+        justify-content: center;
+        text-align:center;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        border-radius:0.7rem;
+        cursor: pointer;
+    }
+
+    .form-login .form-element .control-label{
+        outline: none;
+        width:35%;
+        height:0.938rem;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .form-login .form-element .control-form, .control-form:focus{
+        outline: none;
+        width:60%;
+        height:0.938rem;
+        padding-left:0.313rem;
+        padding-right:0.313rem;
+        margin: 0px 15px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .form-login .form-links{
+        margin: 0.38rem 1rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    .form-connexion{
+        margin-top:50px;
+        left: 0;
+    }
+    #show-reinitialisation{
+        margin-left: -250px;
+        margin-top: -10px;
+    } 
+    #show-register{
+        margin-right: -250px;
+        margin-top: -20px;
+    }
+
+    .form-login .form-links a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .form-login .fermer{
+        background: rgba(0, 0, 0, 0.52);
+        border-radius: 0.938rem;
+        margin-left: auto;
+        margin-right: auto;
+        width:6.25rem;
+        padding:0.313rem 0.625rem;
+        cursor: pointer;
+    }
+
+    .aboressance{
+        display: none;
+    }
 }

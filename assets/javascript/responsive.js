@@ -1,13 +1,23 @@
-window.addEventListener("resize", ecran)
+const login = document.createElement("u");
+login.textContent = "Connexion";
+const pannier = document.createElement("u");
+pannier.textContent = "Pannier";
+if (window.matchMedia("(max-width:769px)").matches) {
+    document.getElementById("show-login").append(login);
+    document.getElementById("pannier").append(pannier);
+} else {
+    login.remove();
+    pannier.remove();
+}
+
+window.addEventListener("resize", ecran);
 function ecran() {
-    if (window.matchMedia("(max-width:111.688rem)").matches) {
-        console.log(window.matchMedia("(max-width:111.688rem)"));
-        var menu = document.getElementById("nav-links");
+    if (window.matchMedia("(max-width:769px)").matches) {
+        document.getElementById("show-login").append(login);
+        document.getElementById("pannier").append(pannier);
     } else {
-        console.log(23);
+        login.remove();
+        pannier.remove();
     }
 }
 
-console.log(window.resizeBy(100, 100));
-
-console.log(screen.width);
