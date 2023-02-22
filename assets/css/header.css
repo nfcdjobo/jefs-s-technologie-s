@@ -3,16 +3,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: monospace;
+    font-size: 15px;
+    /* overflow-x:hidden; */
 }
 
 body{
     background: rgb(167, 166, 166);
-}
-
-header{
-    width: 100vw;
-    height: 10vh;
-    background-color: #ff0000;
 }
 
 .navbar{
@@ -26,6 +23,7 @@ header{
 }
 
 .navbar a{
+    font-size: 10px;
     color: rgb(255, 255, 255);
 }
 
@@ -68,8 +66,6 @@ header{
         width: 100%;
         height: 4vh;
     }
-
-    
 }
 @media screen and (max-width:1440px) {
     header{
@@ -89,7 +85,7 @@ header{
 
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        background-color: rgba(16, 22, 10, 0.01);
         top:6.4rem;
         left: 71.4%;
         width: 220px;
@@ -103,25 +99,26 @@ header{
     }
 }
 @media screen and (max-width:1024px) {
-    header{
-        background-color: #ff0000;
-        width: 100%;
-        height: 10vh;
-    }
     .navbar{
         position: absolute;
         padding: 0.5rem 1rem;
         margin-top: 0rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
         width: 100%;
         box-sizing: border-box;
     }
 
+
+    header{
+        background-color: #ff0000;
+        width: 100%;
+        height: 5vh;
+    }
+    
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        background-color: rgba(16, 22, 10, 0.01);
         top:6.4rem;
         left: 71.4%;
         width: 220px;
@@ -138,7 +135,7 @@ header{
     header{
         background-color: #ff0000;
         width: 100%;
-        height: 10vh;
+        height: 7vh;
     }
     .navbar{
         position: absolute;
@@ -155,7 +152,7 @@ header{
     }
     .nav-links{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        background-color: rgba(16, 22, 10,  0.01);
         top:6rem;
         left: 0.5%;
         width: 220px;
@@ -168,11 +165,12 @@ header{
     }
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
-        top:6.4rem;
-        left: 71.4%;
+        background-color: rgba(16, 22, 10,  0.01);
+        top:6.8rem;
+        left: 69%;
         width: 220px;
         opacity: 1;
+        float: left;
         transform: translate(40%, 0%) scale(1);
         transform: top 0ms ease-in-out 0ms,
             opacity 200ms ease-in-out 0ms,
@@ -346,7 +344,7 @@ header{
 @media screen and (max-width:425px) {
     .nav-links{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        /* background-color: rgba(16, 22, 10, 0.637); */
         top:6.4rem;
         left: 71.4%;
         width: 20px;
@@ -360,7 +358,7 @@ header{
 
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        /* background-color: rgba(16, 22, 10, 0.637); */
         top:3.8rem;
         left: 45%;
         width: 55%;
@@ -530,11 +528,6 @@ header{
 
 
 @media screen and (max-width:375px) {
-    header{
-        background-color: #ff0000;
-        width: 100%;
-        height: 9vh;
-    }
     .navbar{
         position: absolute;
         padding: 0rem 1rem;
@@ -545,13 +538,19 @@ header{
         width: 100%;
         box-sizing: border-box;
     }
+    header{
+        background-color: #ff0000;
+        width: 100%;
+        height: 9vh;
+    }
+    
 
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
-        top:0.6rem;
-        left: 45%;
-        width: 150px;
+        /* background-color: rgba(16, 22, 10, 0.637); */
+        top:0.8rem;
+        left: -12%;
+        width: 100%;
         opacity: 1;
         transform: translate(40%, 0%) scale(1);
         transform: top 0ms ease-in-out 0ms,
@@ -561,19 +560,17 @@ header{
             z-index: 1; 
     }
     .navbar .nav-links ul{
-        background-color: rgba(16, 22, 10, 0.637);
+        background-color: rgba(16, 22, 10, 0.01);
+        justify-content: center;
         top: 2.8rem;
         left: 0%;
-        width: 100%;
+        width: 40%;
         height: auto;
         position: absolute;
         flex-direction: column;
         font-size: 1rem;
     }
-    .navbar .nav-links ul{
-        margin: 0 3.125rem;
-       
-    }
+    
     .navbar .nav-links ul li{
         font-size: 12px;
         margin: 0rem;
@@ -615,11 +612,6 @@ header{
     }
 }
 @media screen and (max-width:320px) {
-    header{
-        background-color: #ff0000;
-        width: 100%;
-        height: 9vh;
-    }
     .navbar{
         position: absolute;
         padding: 0rem 1rem;
@@ -630,10 +622,16 @@ header{
         width: 100%;
         box-sizing: border-box;
     }
+    header{
+        background-color: #ff0000;
+        width: 100%;
+        height: 9vh;
+    }
+    
 
     .nav-links.active{
         position: absolute;
-        background-color: rgba(16, 22, 10, 0.637);
+        /* background-color: rgba(16, 22, 10, 0.637); */
         top:6.4rem;
         left: 71.4%;
         width: 220px;
@@ -647,20 +645,20 @@ header{
     }
 
     .navbar .nav-links ul{
-        background-color: rgb(9, 13, 255);
-        top: 2.8rem;
-        left: -15.6%;
-        width: 100%;
-        height: auto;
         position: absolute;
+        /* background-color: rgba(22, 22, 29, 0.726); */
+        top: -2.8rem;
+        left: -275px;
+        width: 11.3rem;
+        height: auto;
+        padding:5px 75px;
         flex-direction: column;
-        font-size: 1rem;
     }
     .navbar .nav-links ul{
         margin: 0 3.125rem;
     }
     .navbar .nav-links ul li{
-        margin: 0rem;
+        margin: 0.5rem;
     }
     .content .aboressance{
         display: none;

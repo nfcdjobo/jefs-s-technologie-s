@@ -1,0 +1,71 @@
+.mes-infos{
+    max-width: 40.625rem;
+    margin: 0.313rem auto;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0.625rem 1.563rem;
+    
+}
+
+.abonne{
+    max-width: 33.438rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.abonne p{
+    background-color: red;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 200px;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.parent {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.563rem;
+    max-width: 33.438rem;
+    padding: 0.938rem;
+}
+
+/* .parent{
+    margin: 0px auto;
+    max-width: 40.625rem;
+} */
+
+.corps{
+    margin: 0px auto;
+    max-width: 40.625rem;
+}
+
+.parent td,
+.parent th {
+    border: 0.063rem solid rgb(182, 179, 179);
+    padding: 0.5rem;
+}
+
+.parent tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.parent tr:hover {
+    background-color: #ddd;
+}
+
+.parent th {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
