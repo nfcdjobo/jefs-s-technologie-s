@@ -32,20 +32,19 @@
                             </a>
                         </li>
                         <li>
-                            <a id="pannier" href="#">
+                            <a id="pannier" href="./pannier.html">
                                 <svg id="logo-pannier" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                     <path style="fill:rgb(255, 255, 255);"
                                         d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                                 </svg>
-                                <sup>0</sup>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <?xml version="1.0" encoding="utf-8"?>
                 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                <svg fill="rgb(255, 255, 255)" class="menu-query" id="menu-query" ref="open" width="35px" height="35px"
+                <svg fill="#000000" class="menu-query" id="menu-query" ref="open" width="35px" height="35px"
                     viewBox="-5.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <title>menu</title>
                     <path id="path" style="fill: rgb(253, 253, 253);"
@@ -54,6 +53,7 @@
                 </svg>
             </nav>
         </header>
+
 
         <div class="content">
             <div class="aboressance">
@@ -210,7 +210,7 @@
 
             <div class="gros-pannier">
                 <div class="lot-pannol" id="lot-pannier">
-                    <div class="pann">PANNIER (1)</div>
+                    <div class="pann" id="pann">PANNIER (1)</div>
                     <div class="content-pannier">
                         <div class="det-img">
                             <img src="./../assets/images/produit/informatique/ordinateur/pc-05.jpg" alt="produit"
@@ -223,19 +223,19 @@
                         </div>
                     </div>
                     <div class="deve">
-                        <h3>599$</h3>
+                        <h3 id="prix" valeur="599">599$</h3>
                         <div class="plusormoins">
                             <?xml version="1.0" encoding="utf-8"?>
                             <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                            <svg fill="rgb(255, 0, 0)" width="20px" height="20px" viewBox="0 0 24 24"
+                            <svg fill="rgb(255, 0, 0)" id="moins" width="20px" height="20px" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M12,1A11,11,0,1,0,23,12,11.013,11.013,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9.01,9.01,0,0,1,12,21Zm5-9a1,1,0,0,1-1,1H8a1,1,0,0,1,0-2h8A1,1,0,0,1,17,12Z" />
                             </svg>
-                            <strong>1</strong>
+                            <strong id="nombre">1</strong>
                             <?xml version="1.0" encoding="utf-8"?>
                             <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                            <svg fill="rgb(255, 0, 0)" width="20px" height="20px" viewBox="0 0 16 16"
+                            <svg fill="rgb(255, 0, 0)" id="plusieurs" width="20px" height="20px" viewBox="0 0 16 16"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.64 4.33H7.39v3.05H4.34v1.25h3.05v3.05h1.25V8.63h3.05V7.38H8.64V4.33z" />
                                 <path
@@ -247,10 +247,10 @@
                 <div class="lot-pannel" id="resume-p">
                     <h3>Résumé du pannier</h3>
                     <div>
-                        <p>Sous-Total: <strong>599$</strong></p>
+                        <p>Sous-Total: <strong id="sous-total">599$</strong></p>
                         <p>Frais de livraison : <strong>0$</strong></p>
-                        <p>Total : <strong>599$</strong></p>
-                        <p class="commande">Commander (599$)</p>
+                        <p>Total : <strong id="total">599$</strong></p>
+                        <p class="commande" id="commande">Commander (599$)</p>
                     </div>
                 </div>
             </div>
@@ -261,8 +261,9 @@
                     <div class="title-element">
                         <?xml version="1.0" encoding="utf-8"?>
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                        <svg fill="rgb(255, 255, 255)" version="1.1" id="Layer_1" width="25px" height="25px" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                        <svg fill="rgb(255, 255, 255)" version="1.1" id="Layer_1" width="25px" height="25px"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 24 24" xml:space="preserve">
                             <style type="text/css">
                                 .st0 {
                                     fill: none;
@@ -279,8 +280,9 @@
                     </div>
                     <div class="title-element">
                         <?xml version="1.0" encoding="utf-8"?>
-            
-                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+                        <!DOCTYPE svg
+                            PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                         <svg fill="rgb(255, 255, 255)" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 512 512"
@@ -297,7 +299,8 @@
                     <div class="title-element">
                         <?xml version="1.0" encoding="utf-8"?>
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                        <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M16 8H8C7.45 8 7.005 8.45 7.005 9L7 15C7 15.55 7.45 16 8 16H16C16.55 16 17 15.55 17 15V9C17 8.45 16.55 8 16 8ZM8.00001 9.99997L12 12.5L16 9.99997V15H8.00001V9.99997ZM8.00001 9.00001L12 11.5L16 9.00001H8.00001Z"
                                 fill="rgb(255, 255, 255)" />
@@ -315,19 +318,21 @@
                         <svg viewBox="0 0 600 600" version="1.1" id="svg9724" sodipodi:docname="question-circle.svg"
                             inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)" width="25px" height="25px"
                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:svg="http://www.w3.org/2000/svg">
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
                             <defs id="defs9728" />
-                            <sodipodi:namedview id="namedview9726" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
-                                inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
-                                inkscape:deskcolor="#d1d1d1" showgrid="true" inkscape:zoom="1.1896171" inkscape:cx="190.3974"
-                                inkscape:cy="339.18477" inkscape:window-width="1920" inkscape:window-height="1009"
-                                inkscape:window-x="0" inkscape:window-y="1080" inkscape:window-maximized="1"
-                                inkscape:current-layer="svg9724" showguides="true">
+                            <sodipodi:namedview id="namedview9726" pagecolor="#ffffff" bordercolor="#666666"
+                                borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0"
+                                inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="true"
+                                inkscape:zoom="1.1896171" inkscape:cx="190.3974" inkscape:cy="339.18477"
+                                inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="0"
+                                inkscape:window-y="1080" inkscape:window-maximized="1" inkscape:current-layer="svg9724"
+                                showguides="true">
                                 <inkscape:grid type="xygrid" id="grid9972" originx="0" originy="0" />
-                                <sodipodi:guide position="300,360" orientation="1,0" id="guide1208" inkscape:locked="false" />
+                                <sodipodi:guide position="300,360" orientation="1,0" id="guide1208"
+                                    inkscape:locked="false" />
                             </sodipodi:namedview>
-            
+
                             <path
                                 style="stroke-width:1.05103;color:rgb(255, 255, 255);fill:rgb(255, 255, 255);stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
                                 d="m 300.60937,-12.792969 c -173.60599,0 -315.214839,141.724839 -315.214839,315.404299 0,173.67945 141.608849,315.40429 315.214839,315.40429 173.606,0 315.21485,-141.72484 315.21485,-315.40429 0,-173.67946 -141.60885,-315.404299 -315.21485,-315.404299 z m 0,84.082031 c 128.13278,10e-7 231.13086,103.052738 231.13086,231.322268 0,128.26952 -102.99808,231.32226 -231.13086,231.32226 C 172.4766,533.93359 69.476562,430.88085 69.476562,302.61133 69.476563,174.3418 172.4766,71.289062 300.60937,71.289062 Z"
@@ -344,10 +349,11 @@
                     <div class="title-element">
                         <?xml version="1.0" encoding="iso-8859-1"?>
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <!DOCTYPE svg
+                            PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                         <svg fill="rgb(255, 255, 255)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 125.422 125.422"
-                            xml:space="preserve">
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px"
+                            viewBox="0 0 125.422 125.422" xml:space="preserve">
                             <g>
                                 <g>
                                     <circle cx="62.267" cy="13.981" r="13.981" />
@@ -366,8 +372,9 @@
                     <div class="title-element">
                         <?xml version="1.0" encoding="iso-8859-1"?>
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                        <svg fill="rgb(255, 255, 255)" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                        <svg fill="rgb(255, 255, 255)" height="25px" width="25px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 512 512" xml:space="preserve">
                             <g>
                                 <g>
                                     <path
@@ -398,7 +405,8 @@
                             </g>
                             <g>
                                 <g>
-                                    <path d="M256.001,307.672c-25.327,0-45.932,20.605-45.932,45.932c0,25.326,20.605,45.932,45.932,45.932
+                                    <path
+                                        d="M256.001,307.672c-25.327,0-45.932,20.605-45.932,45.932c0,25.326,20.605,45.932,45.932,45.932
                                                     c25.327,0,45.932-20.605,45.932-45.932S281.328,307.672,256.001,307.672z" />
                                 </g>
                             </g>
@@ -418,7 +426,8 @@
                             </g>
                             <g>
                                 <g>
-                                    <path d="M436.82,161.235c-25.327,0-45.932,20.606-45.932,45.932c0,25.326,20.605,45.932,45.932,45.932
+                                    <path
+                                        d="M436.82,161.235c-25.327,0-45.932,20.606-45.932,45.932c0,25.326,20.605,45.932,45.932,45.932
                                                     s45.932-20.605,45.932-45.932C482.752,181.84,462.147,161.235,436.82,161.235z" />
                                 </g>
                             </g>
@@ -468,5 +477,6 @@
 </body>
 <script src="./../assets/javascript/formulaire.js"></script>
 <script src="./../assets/javascript/responsive.js"></script>
+<script src="./../assets/javascript/ajout_pannier.js"></script>
 
 </html>

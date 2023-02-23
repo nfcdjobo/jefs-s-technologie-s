@@ -200,9 +200,6 @@ body{
     cursor: pointer;
 }
 
-.content .flay .logo-slogan h3{
-    font-size: 100%;;
-}
 
 .logo-slogan h3 u{
     color: rgb(255, 0, 0);
@@ -215,7 +212,6 @@ body{
 .logo-slogan .action{
     margin-top: 1rem;
     color: rgb(255, 0, 0);
-    font-size:1.363rem;
     font-weight: bold;
 }
 
@@ -238,24 +234,25 @@ body{
     display: flex; 
     background-color: rgb(255, 255, 255);
     padding:0.313rem;
-    border-radius:1.563rem1.563rem 0rem 0rem;
+    border-radius:1.5rem 1.5rem 0rem 0rem;
     color: rgb(255, 0, 0);
     font-weight: bold;
 }
 
 .some-categorie .categorie-title .categorie{
+    font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
     padding:0.313rem 0.938rem;
-    font-size:1.563rem;
 }
 
 .some-categorie .categorie-title .voir{
+    float: right;
     background-color: rgb(255, 0, 0);
     margin-right:6.25rem;
     padding:0.313rem 0.938rem;
     color: rgb(255, 255, 255);
-    border-radius:1.563rem1.563rem1.563rem1.563rem;
+    border-radius: 1rem;;
 }
 
 .some-categorie .categorie-title .voir svg{
@@ -304,7 +301,6 @@ body{
 .soldes-demande .all-solde u{
     background-color: red;
     color: white;
-    font-size: 0.75rem;
     padding: 0.938rem;
     margin-top: -0.313rem;
     font-weight: bold;
@@ -321,7 +317,6 @@ body{
     justify-content: center;
     padding-left:0.313rem;
     padding-right:0.313rem;
-    font-size: 0.875rem;
     color: rgb(95, 93, 93);
 }
 
@@ -329,7 +324,6 @@ body{
     width: 100%;
     justify-content: center;
     padding:0.313rem;
-    font-size: 0.938rem;
     font-weight: bold;
     margin-top:0.313rem;
     color: rgb(58, 57, 57);
@@ -435,15 +429,21 @@ body{
 }
 
 
-@media screen and (max-width:768px) {   
-    .modal{
-        margin-left: auto;
-        margin-right: auto;
-        width:90%;
-        top: 5px;;
-        left:5%;
-        justify-content: space-between;
-    }
+@media screen and (max-width:768px) { 
+    /* @media screen and (max-width:1200px) {   */
+        
+
+        .flay .slide{
+            width: 100%;
+        } 
+        .modal{
+            margin-left: auto;
+            margin-right: auto;
+            width:90%;
+            top: 5px;;
+            left:5%;
+            justify-content: space-between;
+        }
 
     .logos{
         background-color: rgb(255, 255, 255);

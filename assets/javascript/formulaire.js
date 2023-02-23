@@ -1,5 +1,4 @@
 document.querySelector("#show-login").addEventListener("click", function () {
-    alert(23);
     document.querySelector("#active-login").classList.add("active");
     document.getElementById("active-reinitialiser").classList.remove("active");
     document.getElementById("active-valider").classList.remove("active");
@@ -36,11 +35,11 @@ document.querySelector("#existe").addEventListener("click", function () {
 document.querySelector("#show-register").addEventListener("click", function () {
     document.querySelector("#active-register").classList.add("active");
     document.getElementById("active-reinitialiser").classList.remove("active");
-    document.getElementById("active-validation").classList.remove("active");
+    document.getElementById("active-valider").classList.remove("active");
     document.getElementById("active-login").classList.remove("active");
 });
 
-document.querySelector("#show-validation").addEventListener("click", function () {
+document.querySelector("#reset-submit").addEventListener("click", function () {
     document.querySelector("#active-valider").classList.add("active");
     document.getElementById("active-reinitialiser").classList.remove("active");
     document.getElementById("active-register").classList.remove("active");

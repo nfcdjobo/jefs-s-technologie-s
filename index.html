@@ -32,7 +32,7 @@
                         </li>
                         <li>
                             <a id="pannier" href="./corporate/pannier.html">
-                                <svg id="logo-pannier" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <svg id="logo-pannier" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                     fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                     <path style="fill:rgb(255, 255, 255);"
                                         d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -61,7 +61,7 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                 class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" style="fill:rgb(255, 0, 0);"
                                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
@@ -90,23 +90,23 @@
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
                             </div>
-                            <form action="" class="form-login">
+                            <div class="form-login">
                                 <h4>Login</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Votre adresse e-mail</label><br>
-                                    <input class="control-form" type="email" name="email" id="email"
+                                    <input id="login-email" class="control-form" type="email" name="login-email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="password">Votre Mot de passe</label><br>
-                                    <input class="control-form" type="password" name="password" id="password"
+                                    <input id="login-password" class="control-form" type="password" name="login-password"
                                         placeholder="Your password" required>
                                 </div>
                                 <div class="form-checkbox">
                                     <input type="checkbox" name="remember-me" id="remember-me">
                                     <label for="remember-me">Se souvenir de moi</label>
                                 </div>
-                                <button type="submit" class="form-connexion">Connexion</button>
+                                <button type="submit" id="login-submit" class="form-connexion">Connexion</button>
                                 <div class="form-links" id="show-reinitialisation">
                                     <a href="#Reset" class="forget">Mot de passe oublier ?</a>
                                 </div>
@@ -114,7 +114,7 @@
                                     <a href="#register" class="no-existe">Je n'ai pas de compte</a>
                                 </div>
                                 <div class="fermer" id="fermer">Fermer</div>
-                            </form>
+                            </div>
                         </div>
 
 
@@ -122,34 +122,34 @@
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
                             </div>
-                            <form action="" class="form-login">
+                            <div class="form-login">
                                 <h4>Créer votre compte</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="name">Nom et Prénom(s)</label>
-                                    <input class="control-form" type="text" name="name" id="name"
+                                    <input class="control-form" type="text" name="name" id="register-name"
                                         placeholder="Your Last name and First name" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Adresse e-mail</label>
-                                    <input class="control-form" type="email" name="email" id="email"
+                                    <input class="control-form" type="email" name="email" id="register-email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="password">Mot de passe</label>
-                                    <input class="control-form" type="password" name="password" id="password"
+                                    <input class="control-form" type="password" name="password" id="register-password"
                                         placeholder="Your password" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="telephone">Adresse téléphonique</label>
-                                    <input class="control-form" type="telephone" name="telephone" id="telephone"
+                                    <input class="control-form" type="telephone" name="telephone" id="register-telephone"
                                         placeholder="Your phone adress" required>
                                 </div>
-                                <button type="submit" class="form-connexion">Renrégistrer</button>
+                                <button type="submit" class="form-connexion" id="register-submit">Enrégistrer</button>
                                 <div class="form-links" id="existe">
                                     <a href="#login" class="existe">J'ai déjà un compte</a>
                                 </div>
                                 <div class="fermer" id="fermer-register">Fermer</div>
-                            </form>
+                            </div>
                         </div>
 
 
@@ -157,26 +157,26 @@
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
                             </div>
-                            <form action="" class="form-login">
+                            <div action="" class="form-login">
                                 <h4>Mot de passe</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="name">Nom et Prénom(s)</label><br>
-                                    <input class="control-form" type="text" name="name" id="name"
+                                    <input class="control-form" type="text" name="name" id="reset-name"
                                         placeholder="Your Last name and First name" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Adresse e-mail</label><br>
-                                    <input class="control-form" type="email" name="email" id="email"
+                                    <input class="control-form" type="email" name="email" id="reset-email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Répéter le mail</label><br>
-                                    <input class="control-form" type="email" name="email" id="email"
+                                    <input class="control-form" type="email" name="email" id="confirm-email"
                                         placeholder="Repite your mail adress" required>
                                 </div>
-                                <button type="submit" class="form-conexion" id="show-validation">Réinitialaiser</button>
+                                <button type="submit" class="form-conexion" id="reset-submit">Réinitialaiser</button>
                                 <div class="fermer" id="fermer-reinitialisation">Fermer</div>
-                            </form>
+                            </div>
                         </div>
 
 
@@ -226,45 +226,43 @@
                         <div class="element">
                             <div class="soldes-demande">
                                 <div class="all-solde"><u> SOLDES 2<sup>ième</sup> DEMANDE</u> <samp>-20%</samp></div>
-                                <img class="all-solde" width="100px" height="50px"
+                                <img class="all-solde" width="100px" height="50px" id="add-cart-01-image"
                                     src="./assets/images/produit/informatique/ordinateur/pc01.jpg" alt="article" />
-                                <h4 class="all-solde">L'amplification de la clarté de l'image, indiquée sous la forme
-                                    d'un nombre (number)
-                                    ou d'un pourcentage (percentage).</h4>
-                                <h5 class="all-solde">Ordinateurs Portables et Bureautiques</h5>
+                                <h4 class="all-solde" id="add-cart-01-desscription">L'amplification de la clarté de l'image, indiquée sous la forme</h4>
+                                <h5 class="all-solde" id="add-cart-01-libelle">Ordinateurs Portables et Bureautiques</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
                                     </div>
-                                    <div class="star-price" id="price">599$</div>
+                                    <div class="star-price" id="add-cart-01-price">599$</div>
                                 </div>
                                 <div class="all-solde" id="plus"><a href="./corporate/detail.html">Savoir Plus
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height=" 16"
@@ -273,12 +271,14 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
+                                <div class="all-solde" id="ajouter">
+                                    <a class="add-cart" id="add-cart-01">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
-                                        </svg>Ajouter au pannier</a>
+                                        </svg>Ajouter au pannier
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -286,45 +286,44 @@
                         <div class="element">
                             <div class="soldes-demande">
                                 <div class="all-solde"><u> SOLDES 2<sup>ième</sup> DEMANDE</u> <samp>-20%</samp></div>
-                                <img class="all-solde" width="100px" height="50px"
+                                <img class="all-solde" width="100px" height="50px" id="add-cart-02-image"
                                     src="./assets/images/produit/informatique/antivirus/antivirus2.jpg" alt="article" />
-                                <h4 class="all-solde">L'amplification de la clarté de l'image, indiquée sous la forme
-                                    d'un nombre (number)
-                                    ou d'un pourcentage (percentage).</h4>
-                                <h5 class="all-solde">Anti-virus</h5>
+                                <h4 class="all-solde" id="add-cart-02-desscription">L'amplification de la clarté de l'image, indiquée sous la forme
+                                    d'un nombre (number) ou d'un pourcentage (percentage).</h4>
+                                <h5 class="all-solde" id="add-cart-02-libelle">Anti-virus</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
-                                            <path style="fill:rgb(255, 165, 0);"
+                                            <path style="fill:rgb(255, 255, 255);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
                                     </div>
-                                    <div class="star-price" id="price">599$</div>
+                                    <div class="star-price" id="add-cart-02-price">599$</div>
                                 </div>
                                 <div class="all-solde" id="plus"><a href="./corporate/detail.html">Savoir Plus
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"" height=" 16"
@@ -333,8 +332,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a class="add-cart" id="add-cart-02">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -348,43 +347,43 @@
                                 <div class="all-solde"><u> SOLDES 2<sup>ième</sup> DEMANDE</u> <samp>-20%</samp></div>
                                 <img class="all-solde" width="100px" height="50px"
                                     src="./assets/images/produit/informatique/application/app03.jpg" alt="article" />
-                                <h4 class="all-solde">L'amplification de la clarté de l'image, indiquée sous la forme
+                                <h4 class="all-solde" id="add-cart-03-desscription">L'amplification de la clarté de l'image, indiquée sous la forme
                                     d'un nombre (number)
                                     ou d'un pourcentage (percentage).</h4>
-                                <h5 class="all-solde">Logiciels</h5>
+                                <h5 class="all-solde" id="add-cart-03-libelle">Logiciels</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
                                     </div>
-                                    <div class="star-price" id="price">599$</div>
+                                    <div class="star-price" id="add-cart-03-price">599$</div>
                                 </div>
                                 <div class="all-solde" id="plus"><a href="./corporate/detail.html">Savoir Plus
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"" height=" 16"
@@ -393,8 +392,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart" id="add-cart-03">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -409,43 +408,42 @@
                                 <img class="all-solde" width="100px" height="50px"
                                     src="./assets/images/produit/informatique/imprimantes/imprime-01.jpg"
                                     alt="article" />
-                                <h4 class="all-solde">L'amplification de la clarté de l'image, indiquée sous la forme
-                                    d'un nombre (number)
-                                    ou d'un pourcentage (percentage).</h4>
-                                <h5 class="all-solde">Imprimantes et Encres</h5>
+                                <h4 class="all-solde" id="add-cart-04-desscription">L'amplification de la clarté de l'image, indiquée sous la forme
+                                    d'un nombre (number) ou d'un pourcentage (percentage).</h4>
+                                <h5 class="all-solde" id="add-cart-04-libelle">Imprimantes et Encres</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
                                     </div>
-                                    <div class="star-price" id="price">599$</div>
+                                    <div class="star-price" id="add-cart-04-price">599$</div>
                                 </div>
                                 <div class="all-solde" id="plus">
                                     <a href="./corporate/detail.html">
@@ -458,8 +456,8 @@
                                     </a>
                                 </div>
                                 <div class="all-solde" id="ajouter">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    <a href="#" class="add-cart" id="add-cart-04">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -481,7 +479,7 @@
                         <div class="categorie">Téléphones</div>
                         <div class="voir">
                             <a href="#"> Voir Plus
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                     class="bi bi-plus-circle" viewBox="0 0 16 16">
                                     <path style="fill:rgb(255, 0, 0);"
                                         d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -503,31 +501,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -542,8 +540,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -563,31 +561,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -602,8 +600,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -623,31 +621,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -662,8 +660,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -683,31 +681,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -722,8 +720,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -739,7 +737,7 @@
                         <div class="categorie">Jeux</div>
                         <div class="voir">
                             <a href="#"> Voir Plus
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                     class="bi bi-plus-circle" viewBox="0 0 16 16">
                                     <path style="fill:rgb(255, 0, 0);"
                                         d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -761,31 +759,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -800,8 +798,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -821,31 +819,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -860,8 +858,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -881,31 +879,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -920,8 +918,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -941,31 +939,31 @@
                                 <h5 class="all-solde">L'amplification de la clarté</h5>
                                 <div class="all-solde" id="al-sold">
                                     <div class="star-price" id="star">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             style="background-color: white;" viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             viewBox="0 0 24 24">
                                             <path style="fill:rgb(255, 165, 0);"
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
@@ -980,8 +978,8 @@
                                                 d=" M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                                         </svg></a>
                                 </div>
-                                <div class="all-solde" id="ajouter"><a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                <div class="all-solde" id="ajouter"><a href="#" class="add-cart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                             <path style="fill:rgb(255, 0, 0);"
                                                 d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
@@ -1490,10 +1488,10 @@
     </div>
 
     </div>
-    <script>
-    </script>
     <script src="./assets/javascript/formulaire.js"></script>
     <script src="./assets/javascript/responsive.js"></script>
+    <script src="./assets/javascript/validateur.js"></script>
+    <script src="./assets/javascript/pannier.js"></script>
 </body>
 
 </html>
