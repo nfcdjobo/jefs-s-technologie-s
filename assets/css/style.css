@@ -296,6 +296,7 @@ body{
     margin-top: -0.99rem;
     padding-top:0.313rem;
     overflow-y: hidden;
+
 }
 
 .soldes-demande .all-solde u{
@@ -369,6 +370,7 @@ body{
     padding:0.313rem;
     color: red;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .voir a, #plus a{
