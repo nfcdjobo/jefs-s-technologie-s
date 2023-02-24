@@ -552,7 +552,7 @@ body{
             z-index: 1; 
     }
     .navbar .nav-links ul{
-        background-color: rgba(16, 22, 10, 0.01);
+        background-color: rgb(0, 0, 0, 0.6);
         justify-content: center;
         top: 2.8rem;
         left: 0%;
