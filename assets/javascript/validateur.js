@@ -1,11 +1,3 @@
-// function inscription() {
-//     const infos = validateur;
-//     if (infos[0] == "register") {
-//         localStorage.setItem("username", JSON.stringify(infos[1]));
-//     }
-// }
-// localStorage.clear();
-
 function validateur(event) {
     let Infor_user = {};
 

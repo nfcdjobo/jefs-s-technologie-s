@@ -28,6 +28,7 @@ function ajoutPannier(event){
     if (localStorage.getItem(event.target.id) == null) {
         localStorage.setItem(event.target.id, JSON.stringify(ObjetPanier));
         document.getElementById("panier-compte").textContent = ObjetPanier.Quantite;
+        window.location.reload();
     }else{
         /*
         Si l'article existe dans le local-storege je récupère les informations de l'article

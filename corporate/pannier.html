@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li>
-                            <a id="pannier" href="./../corporate/pannier.html">
+                            <a id="pannier" href="./pannier.html">
                                 <svg id="logo-pannier" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                     class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                     <path style="fill:rgb(255, 255, 255);"
@@ -96,19 +96,19 @@
                                 <h4>Login</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Votre adresse e-mail</label><br>
-                                    <input id="login-email" class="control-form" type="email" name="login-email"
+                                    <input class="control-form" type="email" name="email" id="email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="password">Votre Mot de passe</label><br>
-                                    <input id="login-password" class="control-form" type="password" name="login-password"
+                                    <input class="control-form" type="password" name="password" id="password"
                                         placeholder="Your password" required>
                                 </div>
                                 <div class="form-checkbox">
                                     <input type="checkbox" name="remember-me" id="remember-me">
                                     <label for="remember-me">Se souvenir de moi</label>
                                 </div>
-                                <button type="submit" id="login-submit" class="form-connexion">Connexion</button>
+                                <button type="submit" class="form-connexion">Connexion</button>
                                 <div class="form-links" id="show-reinitialisation">
                                     <a href="#Reset" class="forget">Mot de passe oublier ?</a>
                                 </div>
@@ -118,8 +118,8 @@
                                 <div class="fermer" id="fermer">Fermer</div>
                             </div>
                         </div>
-                
-                
+
+
                         <div class="modal-popup" id="active-register">
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
@@ -128,60 +128,60 @@
                                 <h4>Créer votre compte</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="name">Nom et Prénom(s)</label>
-                                    <input class="control-form" type="text" name="name" id="register-name"
+                                    <input class="control-form" type="text" name="name" id="name"
                                         placeholder="Your Last name and First name" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Adresse e-mail</label>
-                                    <input class="control-form" type="email" name="email" id="register-email"
+                                    <input class="control-form" type="email" name="email" id="email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="password">Mot de passe</label>
-                                    <input class="control-form" type="password" name="password" id="register-password"
+                                    <input class="control-form" type="password" name="password" id="password"
                                         placeholder="Your password" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="telephone">Adresse téléphonique</label>
-                                    <input class="control-form" type="telephone" name="telephone" id="register-telephone"
+                                    <input class="control-form" type="telephone" name="telephone" id="telephone"
                                         placeholder="Your phone adress" required>
                                 </div>
-                                <button type="submit" class="form-connexion" id="register-submit">Enrégistrer</button>
+                                <button type="submit" class="form-connexion">Renrégistrer</button>
                                 <div class="form-links" id="existe">
                                     <a href="#login" class="existe">J'ai déjà un compte</a>
                                 </div>
                                 <div class="fermer" id="fermer-register">Fermer</div>
                             </div>
                         </div>
-                
-                
+
+
                         <div class="modal-popup" id="active-reinitialiser">
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
                             </div>
-                            <div action="" class="form-login">
+                            <div class="form-login">
                                 <h4>Mot de passe</h4>
                                 <div class="form-element">
                                     <label class="control-label" for="name">Nom et Prénom(s)</label><br>
-                                    <input class="control-form" type="text" name="name" id="reset-name"
+                                    <input class="control-form" type="text" name="name" id="name"
                                         placeholder="Your Last name and First name" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Adresse e-mail</label><br>
-                                    <input class="control-form" type="email" name="email" id="reset-email"
+                                    <input class="control-form" type="email" name="email" id="email"
                                         placeholder="Your mail adress" required>
                                 </div>
                                 <div class="form-element">
                                     <label class="control-label" for="email">Répéter le mail</label><br>
-                                    <input class="control-form" type="email" name="email" id="confirm-email"
+                                    <input class="control-form" type="email" name="email" id="email"
                                         placeholder="Repite your mail adress" required>
                                 </div>
-                                <button type="submit" class="form-conexion" id="reset-submit">Réinitialaiser</button>
+                                <button type="submit" class="form-conexion" id="show-validation">Réinitialaiser</button>
                                 <div class="fermer" id="fermer-reinitialisation">Fermer</div>
                             </div>
                         </div>
-                
-                
+
+
                         <div class="modal-popup" id="active-valider">
                             <div class="logos">
                                 <u>J</u>efs'S<u>-T</u>echnologie'<u>s</u>
@@ -194,7 +194,8 @@
                                 </div>
                                 <div class="control-label" id="img-valide">
                                     <?xml  version="1.0" encoding="utf-8"?>
-                                    <svg width="50px" height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="50px" height="50px" viewBox="0 0 32 32"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path style="fill: rgb(255, 255, 255);"
                                             d="m16 0c8.836556 0 16 7.163444 16 16s-7.163444 16-16 16-16-7.163444-16-16 7.163444-16 16-16zm6.4350288 11.7071068c-.3905242-.3905243-1.0236892-.3905243-1.4142135 0l-6.3646682 6.3632539-3.5348268-3.5348268c-.3905242-.3905243-1.0236892-.3905243-1.41421352 0-.39052429.3905243-.39052429 1.0236893 0 1.4142136l4.24264072 4.2426407c.3905243.3905242 1.0236892.3905242 1.4142135 0 .0040531-.0040531.0080641-.0081323.012033-.0122371l7.0590348-7.0588308c.3905243-.3905242.3905243-1.0236892 0-1.4142135z"
                                             fill="#202327" fill-rule="evenodd" />
@@ -476,7 +477,7 @@
 </body>
 <script src="./../assets/javascript/formulaire.js"></script>
 <script src="./../assets/javascript/responsive.js"></script>
-<script src="./../assets/javascript/validateur.js"></script>
-<script src="./../assets/javascript/pannier.js"></script>
+<script src="./../assets/javascript/ajout_pannier.js"></script>
+<script src="./../assets/javascript/all.js"></script>
 
 </html>
