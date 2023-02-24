@@ -80,5 +80,18 @@
         </div>
     </nav>
 </body>
-
+<script>
+    let reponse = confirm("Avez-vous plus de 18 ans ?");
+    if(reponse == true){
+        let nombre = parseInt(prompt("Veuillez donc entrer un nombre compris en 1 et 10"));
+        if((1<=nombre<=10) && nombre%2==0){
+            let autre = parseInt(prompt(`Veuillez encore saisir un nombre compris en 1 et ${nombre}`))
+        }else{
+            alert("Vous avez perdu");
+        }     
+    }else{
+        alert("Vous avez perdu");
+    }
+    
+</script>
 </html>

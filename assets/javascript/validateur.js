@@ -41,7 +41,7 @@ function validateur(event) {
             }
             let username =JSON.parse(localStorage.getItem("username"));
             if ((Infor_user.email == username.email) && (Infor_user.password == username.password)){
-                document.location.href = "file:///D:/NaN_Formation/Jefs's-Technologie's/corporate/abonner.html";
+                document.location.href = "/jefs-s-technologie-s/corporate/abonner.html";
             }
         }
     }
