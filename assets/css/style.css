@@ -33,6 +33,8 @@ body{
     position: relative;
     align-items: center;
     background-size: 100%;
+    z-index: 0;
+
 }
 
 .slide{
@@ -155,7 +157,7 @@ body{
 
  .form-login button, .form-login button:hover{
     background-color: rgb(255, 255, 255);
-    margin:15px auto;
+    margin: 0.938rem auto;
     width: 75%;
     padding:0.313rem 0.938rem;
     justify-content: center;
@@ -431,10 +433,7 @@ body{
 }
 
 
-@media screen and (max-width:768px) { 
-    /* @media screen and (max-width:1200px) {   */
-        
-
+@media screen and (max-width:48rem) { 
         .flay .slide{
             width: 100%;
         } 
@@ -442,7 +441,7 @@ body{
             margin-left: auto;
             margin-right: auto;
             width:90%;
-            top: 5px;;
+            top: 0.313rem;
             left:5%;
             justify-content: space-between;
         }
@@ -454,11 +453,11 @@ body{
         border-radius:1.563rem 0rem ;
         color: rgb(0, 0, 0);
         padding:0.188rem;
-        width: 470px;
+        width: 29.375rem;
     }
 
     .logos u{
-        top: 0px;;
+        top: 0rem;;
         color: rgb(255, 0, 0);
     }
 
@@ -470,7 +469,7 @@ body{
         border-radius:1.563rem;
         margin:0.313rem;
         padding:0.625rem;
-        width: 450px;
+        width: 28.125rem;
     }
 
     .form-login h4{
@@ -482,7 +481,7 @@ body{
         border: 0.125rem solid rgb(255, 255, 255);
         border-radius:1.563rem;
         margin-top:0.188rem;
-        padding: 3px;
+        padding: 0.188rem;
     }
 
     .form-login .form-element{
@@ -529,7 +528,7 @@ body{
         height:0.938rem;
         padding-left:0.313rem;
         padding-right:0.313rem;
-        margin: 0px 15px;
+        margin: 0rem 0.938rem;
         color: red;
         font-weight: bold;
     }
@@ -542,16 +541,16 @@ body{
         color: white;
     }
     .form-connexion{
-        margin-top:50px;
-        left: 0;
+        margin-top: 3.125rem;
+        left: 0rem;
     }
     #show-reinitialisation{
-        margin-left: -250px;
-        margin-top: -10px;
+        margin-left: -15.625rem;
+        margin-top: -0.625rem;
     } 
     #show-register{
-        margin-right: -250px;
-        margin-top: -20px;
+        margin-right: -15.625rem;
+        margin-top: -1.25rem;
     }
 
     .form-login .form-links a{
@@ -571,12 +570,12 @@ body{
 }
 
 
-@media screen and (max-width:375px) {   
+@media screen and (max-width: 23.438rem) {   
     .modal{
         margin-left: auto;
         margin-right: auto;
         width:90%;
-        top: 5px;;
+        top: 0.313rem;
         left:5%;
         justify-content: space-between;
     }
@@ -587,14 +586,14 @@ body{
         border:0.313rem solid rgb(255, 0, 0);
         border-radius:1.563rem 0rem ;
         color: rgb(0, 0, 0);
-        margin-top: -45px;
-        margin-left: -15px;
+        margin-top: -2.813rem;
+        margin-left: -0.938rem;
         padding:0.188rem;
-        width: 400px;
+        width: 25rem;
     }
 
     .logos u{
-        top: 0px;;
+        top: 0rem;
         color: rgb(255, 0, 0);
     }
 
@@ -603,10 +602,10 @@ body{
         border-radius:1.563rem 0rem ;
         border:0.313rem solid rgb(255, 255, 255);
         border-radius:1.563rem;
-        margin-top: 5px;
-        margin-left: -15px;
+        margin-top: 0.313rem;
+        margin-left: -0.938rem;
         padding:0.625rem;
-        width: 380px;
+        width: 23.75rem;
     }
 
     .form-login h4{
@@ -618,7 +617,7 @@ body{
         border: 0.125rem solid rgb(255, 255, 255);
         border-radius:1.563rem;
         margin-top:0.188rem;
-        padding: 3px;
+        padding: 0.188rem;
     }
 
     .form-login .form-element{
@@ -665,7 +664,7 @@ body{
         height:0.938rem;
         padding-left:0.313rem;
         padding-right:0.313rem;
-        margin: 0px 15px;
+        margin: 0rem 0.938rem;
         color: red;
         font-weight: bold;
     }
@@ -678,16 +677,16 @@ body{
         color: white;
     }
     .form-connexion{
-        margin-top:50px;
+        margin-top: 3.125rem;
         left: 0;
     }
     #show-reinitialisation{
-        margin-left: -250px;
-        margin-top: -10px;
+        margin-left: -15.625rem;
+        margin-top: -0.625rem;
     } 
     #show-register{
-        margin-right: -250px;
-        margin-top: -20px;
+        margin-right: -15.625rem;
+        margin-top: -1.25rem;
     }
 
     .form-login .form-links a{
@@ -713,12 +712,12 @@ body{
 
 
 
-@media screen and (max-width:425px) {   
+@media screen and (max-width: 26.563rem) {   
     .modal{
         margin-left: auto;
         margin-right: auto;
         width:90%;
-        top: 5px;;
+        top: 0.313rem;
         left:5%;
         justify-content: space-between;
     }
@@ -729,14 +728,14 @@ body{
         border:0.313rem solid rgb(255, 0, 0);
         border-radius:1.563rem 0rem ;
         color: rgb(0, 0, 0);
-        margin-top: -45px;
-        margin-left: -15px;
+        margin-top: -2.813rem;
+        margin-left: -0.938rem;
         padding:0.188rem;
-        width: 400px;
+        width: 25rem;
     }
 
     .logos u{
-        top: 0px;;
+        top: 0rem;;
         color: rgb(255, 0, 0);
     }
 
@@ -746,10 +745,10 @@ body{
         border-radius:1.563rem 0rem ;
         border:0.313rem solid rgb(255, 255, 255);
         border-radius:1.563rem;
-        margin-top: 5px;
-        margin-left: -15px;
+        margin-top: 0.313rem;
+        margin-left: -0.938rem;
         padding:0.625rem;
-        width: 380px;
+        width: 23.75rem;
     }
 
     .form-login h4{
@@ -761,7 +760,7 @@ body{
         border: 0.125rem solid rgb(255, 255, 255);
         border-radius:1.563rem;
         margin-top:0.188rem;
-        padding: 3px;
+        padding: 0.188rem;
     }
 
     .form-login .form-element{
@@ -808,7 +807,7 @@ body{
         height:0.938rem;
         padding-left:0.313rem;
         padding-right:0.313rem;
-        margin: 0px 15px;
+        margin: 0rem 0.938rem;
         color: red;
         font-weight: bold;
     }
@@ -821,16 +820,16 @@ body{
         color: white;
     }
     .form-connexion{
-        margin-top:50px;
+        margin-top: 3.125rem;
         left: 0;
     }
     #show-reinitialisation{
-        margin-left: -250px;
-        margin-top: -10px;
+        margin-left: -15.625rem;
+        margin-top: -0.625rem;
     } 
     #show-register{
-        margin-right: -250px;
-        margin-top: -20px;
+        margin-right: -15.625rem;
+        margin-top: -1.25rem;
     }
 
     .form-login .form-links a{
